@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: darkgray; 
+    min-height: 100vh;
+    display:flex;
+    gap: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.item {
+    width: 100%;
+    height: 200px;
+    border: solid 2px black;
+    background-color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-basis: 200px;
+    flex-grow: 0;*/
+}
+
+/*
+.item1{
+    flex-grow: 1;
+    /*flex-shrink: 2;isso vai fazer com que ele diminuia primeiro em relação aos outros 2 quando chegar no limite do basis.Agora, acontece o inverso caso a gente coloque 0 nesse nosso shrink. Isso vai fazer que ele não diminua quando chegar no limite
+  }
+
+.item2 {
+    flex: 1 0 auto;/* O flex puro é quase que um atalho para o basis, grow e shrink, nós podemos usar os 3 juntos aqui.
+}
+
+.item3 {
+    flex-grow: 1;
+    order:1; Agora nós vamos entender algo simples, que é a ordem dos nossos itens.
+    align-self: end; Agora podemos fazer o align-self, como o nome mesmo diz, ele vai fazer o alinhamento único de um dos itens. 
+}
+ */
