@@ -1,0 +1,28 @@
+h1 { 
+    color:purple;
+
+    border: 2px solid orange;
+}
+
+li{
+    color:red
+}
+
+body{
+    background-image: url("https://www.metroworldnews.com.br/resizer/NgtPMzRXggqoXpt4TiAlSer6-0k=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/BNZOZLD2TRBBNLGTFIQYMA6N6Q.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moon{
+    color:orange; 
+}
+
+.big-text{
+    font-size: 40px; 
+}
+
+#europa-text{
+    font-size:15px; 
+    color: blue;
+}
